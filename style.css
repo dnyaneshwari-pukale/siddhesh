@@ -1,47 +1,81 @@
-*{
+* {
   margin: 0;
   border: border-box;
 }
-.navbar{
+
+.navbar {
+  /* height dilis width kon denar */
+  width: 100%;
   height: 60px;
-  background-color:#ffff;
+  background-color: #ffff;
   color: white;
+  /* varun right khalun left  thodi space vhavii mahnun */
+  margin: 10px 10px 5px 20px;
   display: flex;
+  /* atta navbar ha niiit ahe atta atlya components lini ne khali tyanchii style lihaychii gardii nahii karaychii */
 }
-.dnyanu
+
+.logoo {
+  height: 36px;
+  width: 166px;
+}
+/* jarii kontya element la style nasel tri open close karun thevav pudhe prblm yet nahii */
+.op {}
+
+select {
+  /* saglya options madhe thodii space sathii */
+  margin: 10px 10px 10px 10px;
+}
+
+/* ha dyanu konta class ahe 😑 
+ .dnyanu
 {
   height: 40px;
   padding: 10px;
-}
-.navmenu{
+} */
+
+
+
+
+
+
+
+
+/* ithun khalii mi kahii edit nahii keart ahe okay bgh niiiit aniii smjun krr ani pta pta krr jara jast vel adkun rahu nakos hya project madhe */
+.navmenu {
   height: 100px;
 }
-ul>li{
-    display: inline-block;
-    padding: 10px;
+
+ul>li {
+  display: inline-block;
+  padding: 10px;
 }
-li>a{
-    color:black;
-    text-decoration: none;
-    font-size: 20px;
+
+li>a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
-select{
-    border: none;
-    font-size: 20px;
+
+select {
+  border: none;
+  font-size: 20px;
 }
-.enter{
-    height:100px;
-    width: auto;
-    border-radius: 20%;
+
+.enter {
+  height: 100px;
+  width: auto;
+  border-radius: 20%;
 }
-.search{
-    background-color: pink;
-    margin-left:0px;
-    border-radius:20px;
-    border-top: 20px;
-    border-left:20px ;
-    border-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    display: f;
+
+.search {
+  background-color: pink;
+  margin-left: 0px;
+  border-radius: 20px;
+  border-top: 20px;
+  border-left: 20px;
+  border-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: f;
 }
